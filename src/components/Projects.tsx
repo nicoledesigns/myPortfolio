@@ -22,7 +22,7 @@ export default function Projects() {
         en: '7-page responsive website built with HTML, CSS, and JavaScript. Designed for usability and aesthetics, earning a final grade of 97%.',
         fr: 'Site web responsive de 7 pages développé avec HTML, CSS et JavaScript. Conçu pour l\'ergonomie et l\'esthétique avec une note finale de 97%.'
       },
-      video: 'public/videos/pet.mp4',
+      video: 'videos/pet.mp4',
       tags: ['HTML', 'CSS', 'JavaScript'] ,
       //link: 'https://ephemeral-pothos-cbb6ca.netlify.app'
       link: 'https://github.com/nicoledesigns/first-project'
@@ -33,7 +33,7 @@ export default function Projects() {
         en: 'Flutter app for interactive Bible reading and reflection. Features include: read and listen to Scripture, highlight verses, take notes, daily verses, prayer calendar, verse search, and Biblical AI chat powered by gpt-4o-mini. Built with Flutter/Dart and tested on iOS simulators using Xcode.',
         fr: 'Application Flutter pour la lecture et la réflexion biblique interactives. Fonctionnalités : lecture et audio des Écritures, surlignage de versets, prise de notes, verset quotidien, calendrier de prière, recherche de versets et chat biblique alimenté par l\'IA. Développée avec Flutter/Dart et testée sur simulateur iOS via Xcode.'
       },
-      image: 'public/images/bibleapp.png',
+      image: 'images/bibleapp.png',
       tags: ['Flutter', 'Dart', 'AI', 'iOS'],
       //link: 'https://nicolebibleapp.web.app/'
       link: 'https://github.com/nicoledesigns/bible_app'
@@ -44,7 +44,7 @@ export default function Projects() {
         en: 'Full-stack communication platform focused on privacy, usability, and collaboration. Built with React, Express.js, and SQLite. Features group channels, private messaging, and media sharing. Developed using Agile methodology.',
         fr: 'Plateforme de communication full stack axée sur la confidentialité, l\'ergonomie et la collaboration. Développée avec React, Express.js et SQLite. Fonctionnalités : canaux de groupe, messagerie privée et partage de médias. Réalisée selon la méthodologie Agile.'
       },
-      video: 'public/videos/Bikers.mp4', 
+      video: 'videos/Bikers.mp4', 
       tags: ['React', 'Express.js', 'SQLite', 'Agile'],
       link: 'https://github.com/nicoledesigns/BikeSOEN343'
     },
@@ -54,7 +54,7 @@ export default function Projects() {
         en: 'Image classification system for CIFAR-10 using Gaussian Naive Bayes, Decision Trees, MLPs, and VGG11 CNN. Implemented data pipelines, feature extraction, training, evaluation, and automated reports. Built with Python, NumPy, scikit-learn, PyTorch, and matplotlib in a team of three.',
         fr: 'Système de classification d\'images CIFAR-10 utilisant Naive Bayes gaussien, arbres de décision, MLP et CNN VGG11. Mise en place de pipelines de données, extraction de caractéristiques, entraînement, évaluation et rapports automatisés. Réalisé avec Python, NumPy, scikit-learn, PyTorch et matplotlib au sein d\'une équipe de trois personnes.'
       },
-      image: 'public/images/ML.png',
+      image: 'images/ML.png',
       tags: ['Python', 'ML', 'PyTorch', 'Computer Vision'],
       link: 'https://github.com/nicoledesigns/SOEN472'
     },
@@ -64,7 +64,7 @@ export default function Projects() {
         en: 'Full-stack communication platform focused on privacy, usability, and collaboration. Built with React, Express.js, and SQLite. Features group channels, private messaging, and media sharing. Developed using Agile methodology.',
         fr: 'Plateforme de communication full stack axée sur la confidentialité, l\'ergonomie et la collaboration. Développée avec React, Express.js et SQLite. Fonctionnalités : canaux de groupe, messagerie privée et partage de médias. Réalisée selon la méthodologie Agile.'
       },
-      video: 'public/videos/orzo.mp4',
+      video: 'videos/orzo.mp4',
       tags: ['React', 'Express.js', 'SQLite', 'Agile'],
       link: 'https://github.com/nicoledesigns/-Orzo-SOEN341_Project_W25-'
     },
@@ -74,7 +74,7 @@ export default function Projects() {
         en: 'Personal portfolio built using React, TypeScript, and Tailwind CSS. Features interactive animations, bilingual support, and responsive design. Showcases professional layout and selected projects. Use of AI tools like Bolt to help brainstorm layouts and streamline repetitive coding tasks.',
         fr: 'Portfolio personnel développé avec React, TypeScript et Tailwind CSS. Animations interactives, support bilingue et design responsive. Présentation d\'une mise en page professionnelle et de projets sélectionnés. Utilisation d\'outils d\'IA tels que Bolt pour faciliter la conception de mises en page et rationaliser les tâches de codage répétitives.'
       },
-      video: 'public/videos/portfolio.mp4',
+      video: 'videos/portfolio.mp4',
       tags: ['React', 'TypeScript', 'Tailwind']
     }
   ];
