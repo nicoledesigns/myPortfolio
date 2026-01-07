@@ -44,7 +44,7 @@ export default function Projects() {
         en: 'Full-stack communication platform focused on privacy, usability, and collaboration. Built with React, Express.js, and SQLite. Features group channels, private messaging, and media sharing. Developed using Agile methodology.',
         fr: 'Plateforme de communication full stack axée sur la confidentialité, l\'ergonomie et la collaboration. Développée avec React, Express.js et SQLite. Fonctionnalités : canaux de groupe, messagerie privée et partage de médias. Réalisée selon la méthodologie Agile.'
       },
-      video: '/videos/Bikers.mp4', 
+      video: '/videos/Bikers-small.mp4', 
       tags: ['React', 'Express.js', 'SQLite', 'Agile'],
       link: 'https://github.com/nicoledesigns/BikeSOEN343'
     },
@@ -74,7 +74,7 @@ export default function Projects() {
         en: 'Personal portfolio built using React, TypeScript, and Tailwind CSS. Features interactive animations, bilingual support, and responsive design. Showcases professional layout and selected projects. Use of AI tools like Bolt to help brainstorm layouts and streamline repetitive coding tasks.',
         fr: 'Portfolio personnel développé avec React, TypeScript et Tailwind CSS. Animations interactives, support bilingue et design responsive. Présentation d\'une mise en page professionnelle et de projets sélectionnés. Utilisation d\'outils d\'IA tels que Bolt pour faciliter la conception de mises en page et rationaliser les tâches de codage répétitives.'
       },
-      video: '/videos/portfolio.mp4',
+      video: '/videos/Portfolio-small.mp4',
       tags: ['React', 'TypeScript', 'Tailwind']
     }
   ];
