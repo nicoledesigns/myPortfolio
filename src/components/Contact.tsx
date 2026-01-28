@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import { RefreshCw } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
+import { Mail } from "lucide-react";
+
 
 export default function Contact() {
   const { t } = useLanguage();
@@ -46,12 +48,21 @@ export default function Contact() {
     <section id="contact" className="py-24 bg-gradient-to-br from-slate-50 via-blue-50 to-cyan-50 text-center">
       <div className="max-w-3xl mx-auto px-6">
         <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
-          {t("Daily Inspiration", "Inspiration Quotidienne")}
+          {t("Contact", "Contact")}
         </h2>
-        <p className="text-lg text-slate-700 mb-12">
+      
+        <div className="flex items-center justify-center gap-2 text-slate-700 mb-12">
+        <Mail className="w-5 h-5" />
+        <a
+          href="mailto:nicoleantounn@hotmail.com"
+          className="text-lg hover:text-slate-900 transition underline-offset-4 hover:underline"
+        >
+          nicoleantounn@hotmail.com
+        </a>
+      </div>
+      <p className="text-lg text-slate-700 mb-12">
           {t("A little motivation for every software engineer out there!", "Un peu de motivation pour chaque développeur !")}
         </p>
-
         <div className="bg-white p-8 md:p-12 rounded-3xl shadow-xl border border-slate-200">
           <p className="text-xl md:text-2xl font-medium text-slate-800 mb-4">
             "{t(quote.text.en, quote.text.fr)}"

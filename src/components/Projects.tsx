@@ -71,8 +71,8 @@ export default function Projects() {
     {
       title: { en: 'Portfolio Website', fr: 'Site portfolio' },
       description: {
-        en: 'Personal portfolio built using React, TypeScript, and Tailwind CSS. Features interactive animations, bilingual support, and responsive design. Showcases professional layout and selected projects. Use of AI tools like Bolt to help brainstorm layouts and streamline repetitive coding tasks.',
-        fr: 'Portfolio personnel développé avec React, TypeScript et Tailwind CSS. Animations interactives, support bilingue et design responsive. Présentation d\'une mise en page professionnelle et de projets sélectionnés. Utilisation d\'outils d\'IA tels que Bolt pour faciliter la conception de mises en page et rationaliser les tâches de codage répétitives.'
+        en: 'Personal portfolio built using React, TypeScript, and Tailwind CSS. Features interactive animations, bilingual support, and responsive design. Showcases professional layout and selected projects. Added Framer Motion for smooth transitions between sections. Use of AI tools like Bolt to help brainstorm layouts and streamline repetitive coding tasks.',
+        fr: 'Portfolio personnel développé avec React, TypeScript et Tailwind CSS. Animations interactives, support bilingue et design responsive. Présentation d\'une mise en page professionnelle et de projets sélectionnés. Ajout de Framer Motion pour des transitions fluides entre les sections. Utilisation d\'outils d\'IA tels que Bolt pour faciliter la conception de mises en page et rationaliser les tâches de codage répétitives.'
       },
       video: '/videos/Portfolio-small.mp4',
       tags: ['React', 'TypeScript', 'Tailwind']
